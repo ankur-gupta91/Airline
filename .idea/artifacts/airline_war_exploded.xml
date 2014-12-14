@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="airline:war exploded">
+    <output-path>$PROJECT_DIR$/target/airline</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="airline/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="airline" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: edu.pdx.cs410J:projects:Summer2014" />
+          <element id="library" level="project" name="Maven: edu.pdx.cs410J:examples:Summer2014" />
+          <element id="library" level="project" name="Maven: edu.pdx.cs410J:family:Summer2014" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.5.0-b01" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: com.google.inject:guice:2.0" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:2.2.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:3.0-alpha-1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
